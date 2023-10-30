@@ -16,13 +16,16 @@ def uyeEkle(uyeNo,uyeAd,uyeSoyad,uyeTel,uye_Eposta, uye_Adres, kitap_barkod, kit
     print("Üye Adres:", uye_Adres)
    
 uyeEkle("2022801467", "Elif Banu", "Tunç", "5070423128", 
-"elifbanutunc@gmail.com", "Kuruçeşme Mahallesi, İzmir")
+"elifbanutunc@gmail.com", "Kuruçeşme Mahallesi, İzmir", "9898989", "Anna Karenina", "10.11.2023")
 
 
-def uyeSil():
-    uyeSil(uyeNo)
+def uyeSil(uyeNo):
+ uyeSil()
     
-def uyeGuncelle(uyeTel, uye_Eposta, uye_Adres):
-    uyeGuncelle()
-
+def uyeGuncelle(uyeTel, uye_Adres,uye_Eposta):
+    print("yeni telefon:", uyeTel)
+    print("yeni adres:", uye_Adres)
+    print("yeni e-posta:", uye_Eposta)
+    
+uyeGuncelle("05076543212","Oğuzlar Mahallesi Ankara","eliftunc@gmail.com")
 
