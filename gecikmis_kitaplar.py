@@ -13,5 +13,11 @@ def gecikmisKitaplar(kitap_barkod, kitap_ad, uye_no, uye_ad, uye_soyad):
     print("Üye ID:", uye_no)
     print("Üye Ad:", uye_ad)
     print("Üye Soyad:", uye_soyad)
+    
 gecikmisKitaplar("767436", "Uğultulu Tepeler", "84656", "Esra", "Yılmaz")
+
+def gecikmisKayitSil(uye_no, kitap_barkod):
+    gecikmisKayitSil()
+    
+
     

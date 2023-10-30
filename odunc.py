@@ -17,4 +17,10 @@ def oduncAlma(uye_no, uye_ad, uye_soyad, kitap_barkod, kitap_ad, verilis_tarih, 
     
 oduncAlma("1234","Ali","Saygı","90909","Tutunamayanlar","27.10.2023","10.11.2023")
  
+
+def oduncGuncelle(kitap_barkod, kitap_ad, verilis_tarih,teslim_tarih):
+    oduncGuncelle()
+    
+def oduncSil(uye_no):
+    oduncAlma()
     
