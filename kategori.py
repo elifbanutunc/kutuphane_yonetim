@@ -5,10 +5,10 @@ Created on Sat Oct 28 17:55:35 2023
 @author: TUNC
 """
 
-def KategoriEkle(kategori_No, kategori_Ad):
+def KategoriEkle(kategori_no, kategori_ad):
 
-  print("Kategori No:", kategori_No)
-  print("Kategori Ad:", kategori_Ad)
+  print("Kategori No:", kategori_no)
+  print("Kategori Ad:", kategori_ad)
  
     
 KategoriEkle("001", "Roman")
@@ -22,5 +22,5 @@ KategoriEkle("005", "Çocuk Kitabı")
 def KategoriSil():
     KategoriSil()
 
-def KategoriGuncelle(kategori_Ad):
+def KategoriGuncelle(kategori_no, kategori_ad):
     KategoriGuncelle()

@@ -6,26 +6,27 @@ Created on Sat Oct 28 16:42:27 2023
 """
 #üyeler üzerinde ne gibi işlemler yapılabilir
 
-def uyeEkle(uyeNo,uyeAd,uyeSoyad,uyeTel,uye_Eposta, uye_Adres, kitap_barkod, kitap_ad,teslim_tarih):  
+def uyeEkle(uye_no,uye_ad,uye_soyad,uye_tel,uye_eposta, uye_adres):  
     
-    print("Üye No:",  uyeNo)
-    print("Üye Ad:",  uyeAd)
-    print("Üye Soyad:", uyeSoyad)
-    print("ÜyeTelefon:", uyeTel)
-    print("Üye E-posta:", uye_Eposta)
-    print("Üye Adres:", uye_Adres)
+    print("Üye No:",  uye_no)
+    print("Üye Ad:",  uye_ad)
+    print("Üye Soyad:", uye_soyad)
+    print("ÜyeTelefon:", uye_tel)
+    print("Üye E-posta:", uye_eposta)
+    print("Üye Adres:", uye_adres)
    
 uyeEkle("2022801467", "Elif Banu", "Tunç", "5070423128", 
-"elifbanutunc@gmail.com", "Kuruçeşme Mahallesi, İzmir", "9898989", "Anna Karenina", "10.11.2023")
+"elifbanutunc@gmail.com", "Kuruçeşme Mahallesi, İzmir")
 
 
-def uyeSil(uyeNo):
+def uyeSil(uye_no):
  uyeSil()
     
-def uyeGuncelle(uyeTel, uye_Adres,uye_Eposta):
-    print("yeni telefon:", uyeTel)
-    print("yeni adres:", uye_Adres)
-    print("yeni e-posta:", uye_Eposta)
+def uyeGuncelle(uye_no, uye_tel, uye_adres,uye_eposta):
+    print( "Üye No:", uye_no)
+    print("yeni telefon:", uye_tel)
+    print("yeni adres:", uye_adres)
+    print("yeni e-posta:", uye_eposta)
     
-uyeGuncelle("05076543212","Oğuzlar Mahallesi Ankara","eliftunc@gmail.com")
+uyeGuncelle("00001","05076543212","Oğuzlar Mahallesi Ankara","eliftunc@gmail.com")
 
